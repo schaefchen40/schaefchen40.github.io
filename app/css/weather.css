@@ -1,0 +1,101 @@
+.data{
+    position: relative;
+}
+
+.location{
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+/* center whole block of divCurrent (cityname, date/time, values) */
+.divCurrent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width:400px;
+    text-align: center;
+}
+
+
+
+
+
+.currentData, .dtEntry{
+    width: 220px;
+}
+/* temp_min, temp_max side by side */
+.currentData .tempWrapperMinMax, .forecastData .tempWrapperMinMax{
+    display: flex;
+    white-space: nowrap;
+}
+.currentData .tempWrapperMinMax, .forecastData .tempWrapperMinMax{
+    flex: 1;
+} 
+
+/* for all .data: name and value in the same line (name floating left, value floating right */
+.currentData > .container.data, .forecastData > .container.data{
+    display: flex;
+}
+/* .currentData > .container.data, .forecastData > .container.data{
+    flex: 1;
+    justify-content: space-between;
+} */
+
+
+
+/* .dtEntry{
+    width: 100%
+}
+.forecastData{
+    width: 100%;
+    margin:auto;
+} */
+/* center city and style font of currentCity  */
+.currentCity{
+    font-size: 140%;
+}
+
+/* center date/time of forecast values */
+.dtEntry p, .infodate p{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* center icons */
+.currentIcon .icon, .forecastIcon .icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* move all data names to the left */
+.name{
+    text-align: left;
+}
+
+/* move all data values to the right */
+.value{
+    text-align: right;
+}
+
+/* visually split up each single data entry*/
+.dtEntry{
+    margin-left: 20px; 
+    margin-right: 10px;
+}
+
+.divForecast{
+  overflow-x:scroll;
+}
+
+@media only screen and (max-width: 1400px) {
+    .dtEntry{margin-left: 8px; margin-right: 2px;}
+    .location{font-size: 80%;}
+    .sea_level, .grnd_level{display: none;}
+    .location{margin-bottom: 15px;padding-top: 5px;}
+    /* .dtEntry{width: 60%}
+    .forecastData{width:80%;} */
+}
+
+
+

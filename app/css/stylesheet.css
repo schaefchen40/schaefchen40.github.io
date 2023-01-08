@@ -1,0 +1,177 @@
+/**
+  common css styling throughout all webpages
+  - positioning
+    - navbar and row
+    - side navigation 
+    - dropdown
+    - icons
+    - infobox elements
+    - screen size
+  - spacing and sizing
+    - gerneral
+    - side navigation 
+    - icons & brand name
+    - info-/optionsbox elements
+  - screen size
+*/
+
+/**
+*************************
+****** Positioning ******
+*************************
+*/
+
+/**
+Basic formating of the navigation and nav. items
+**/
+.navbar {
+  position: relative;
+  z-index: 99;
+}
+.navbar-header, 
+.dropdown-container, 
+.custom-functions{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0;
+  padding-left: 0;
+}
+.row-content{ /* centering of the row content*/
+  align-items:center;
+  white-space:nowrap;
+  flex-wrap: nowrap;
+}
+
+/**
+style side navigation
+**/
+.sidenav {
+  position:fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+#customSidenav a{
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+} 
+.sidenav .closebtn {
+  position: absolute;
+  font-size: 36px;
+  float: right;
+} 
+
+/**
+center drowdown-items under the dropdown-button
+**/
+.dropdown-menu{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/**
+style icons
+**/
+.navbar-brand{  /* display brand icon and name in the same line*/
+  display:inline-flex;
+}
+#darkmodeicon{  /* style icon for toggling darkmode/light mode*/
+  cursor: pointer;
+  opacity: 0.9;
+  width: 50px;
+  height: auto;
+}
+
+/**
+position info box elements
+**/
+div.divInfoBoxTitle{
+  float: left;
+  font-weight: bold;
+}
+div.divInfoBoxValue{
+  float: right;
+}
+
+/**
+**************************
+**** Spacing & Sizing ****
+**************************
+*/
+
+/**
+Basic formating
+**/
+html{
+  font-size: 100%;
+}
+
+/**
+style side navigation
+**/
+.sidenav {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+#customSidenav a{
+  padding: 4px 4px 4px 21px;
+} 
+.sidenav .closebtn {
+  top: 0;
+  right: 25px;
+  margin-left: 50px;
+}
+
+/**
+style icons & brand name
+**/
+.brandIcon{
+  margin-right: 7px;
+}
+#darkmodeicon{
+  margin-left: 10px;
+}
+.brandName {
+  margin: 0px;
+}
+
+/**
+style info & options box elements
+**/
+div.divInfoBox{
+  padding: 40px;
+  width: 50%;
+}
+div.divOptionBox{
+  padding: 60px;
+  margin-top: 80px;
+  width: 60%;
+}
+div.divInfoBoxTitle{
+  padding: 10px;
+  clear:both;
+
+}
+div.divInfoBoxValue{
+  padding: 10px;
+  width: 40%;
+}
+
+
+/**
+**************************
+***** change size and hide items for small screen sizes *****
+**************************
+*/
+@media only screen and (max-width: 1400px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .custom-checkbox{display: none;}
+}

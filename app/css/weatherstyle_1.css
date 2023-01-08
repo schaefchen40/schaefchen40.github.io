@@ -1,0 +1,52 @@
+/* hide names and/or values*/
+.currentData .name.temp, .currentData .name.temp_min, .currentData .name.temp_max, .dtEntry .name.temp, .dtEntry .name.temp_min, .dtEntry .name.temp_max{
+    display: none;
+}
+
+/* set with of current data */
+.currentData, .dtEntry{
+    width: 220px;
+}
+
+/* margin between icon and temperature-values */
+.tempWrapper{
+    margin-top: 10px;
+}
+
+/* center all temperature-values */
+.tempWrapper .value{
+    text-align: center;
+}
+
+/* temp_min, temp_max side by side */
+.currentData .tempWrapperMinMax, .forecastData .tempWrapperMinMax{
+    display: flex;
+    white-space: nowrap;
+}
+
+.currentData .tempWrapperMinMax, .forecastData .tempWrapperMinMax{
+    flex: 1;
+} 
+
+/* for all .data: name and value in the same line (name floating left, value floating right */
+.currentData > .container.data, .forecastData > .container.data{
+    display: flex;
+}
+
+.currentData > .container.data, .forecastData > .container.data{
+    flex: 1;
+    justify-content: space-between;
+}
+
+/* color positive and negative values in different colors */
+.posNumberTemp{
+  color: #db3a00;
+}
+.negNumberTemp{
+  color: #005dcf;
+}
+
+/* increas font-size of temperature */
+.temp{
+    font-size: 140%;
+}

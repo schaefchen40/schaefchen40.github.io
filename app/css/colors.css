@@ -1,0 +1,99 @@
+/**
+  common color styling throughout all webpages for daylight mode
+  - navbar and text of navigation items
+  - side navigation 
+  - icons
+  - buttons & checkbox
+  - hover
+  - positive/negativ values
+*/
+
+/**
+  * background color of the navbar &
+  * textcolor of the brandname
+  * and the dropdown-menu (e.g. city, icon)
+  */
+.navbar-custom{
+  background-color: #bdbdbd;
+}
+.navbar-brand, 
+.dropdown-toggle{ 
+    color: #1f1f1f;
+} 
+
+/**
+style side navigation
+**/
+.sidenav {
+  background-color: #141414;
+}
+#customSidenav a:hover {
+  color: #f1f1f1;
+}
+#customSidenav a{
+  color: #818181;
+}
+
+/**
+color icon
+*/
+#darkmodeicon:hover {
+  -webkit-filter: brightness(120%); 
+  opacity: 1;
+}
+
+/**
+color buttons & checkbox
+*/
+.btn-primary, 
+.btn-primary:active, 
+.btn-primary:visited {
+    background-color: #641e9c !important;
+    border-color: #641e9c;
+}
+.btn-primary:hover {
+    background-color: #8a59b3 !important;
+    border-color: #8a59b3;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#641e9c;
+} 
+.btn-secondary
+{
+  border-color: #bdbdbd;
+  background-color: #bdbdbd;
+}
+
+/** 
+coloring on hover/on selection
+*/
+.menuicon:hover:not(.active), 
+.navbar-brand:hover, 
+.dropdown-toggle:hover{ /* menu icon (aether), brand name, dropdown-menu (e.g. city, icon)*/
+  color: #fff;
+}
+.dropdown-menu > a.active { /* color active dropdown item */
+  color: #fff;
+  background-color: #8a59b3;
+}
+
+/**
+change color of positive and negativ values
+*/
+.posNumber{
+  color: green;
+}
+.negNumber{
+  color: red;
+}
+
+
+
+/**
+* for development
+*/
+ /* .navbar-brand, .brandIcon, .brandName, .menuicon, 
+ .custom-functions, .custom-checkbox, .custom-control-input, .custom-control-label,
+ .row-content, .navbar-header, .dropdown-container{
+  border:1px solid #ffffff;
+} */

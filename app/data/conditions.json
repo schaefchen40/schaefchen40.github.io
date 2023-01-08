@@ -1,0 +1,513 @@
+{
+	"conditions": {
+		"Thunderstorm": [
+			{
+				"id": 200,
+				"descr": "thunderstorm with light rain",
+				"icon": "11d",
+				"alticon": "wi-thunderstorm.svg",
+				"alticon_n": "wi-thunderstorm.svg",
+				"cuteicon": "cu-thunderstorm.svg",
+				"cuteicon_n": "cu-thunderstorm.svg"
+			},
+			{
+				"id": 201,
+				"descr": "thunderstorm with rain",
+				"icon": "11d",
+				"alticon": "wi-thunderstorm.svg",
+				"alticon_n": "wi-thunderstorm.svg",
+				"cuteicon": "cu-thunderstorm.svg",
+				"cuteicon_n": "cu-thunderstorm.svg"
+			},
+			{
+				"id": 202,
+				"descr": "thunderstorm with heavy rain",
+				"icon": "11d",
+				"alticon": "wi-storm-showers.svg",
+				"alticon_n": "wi-storm-showers.svg",
+				"cuteicon": "cu-storm-showers.svg",
+				"cuteicon_n": "cu-storm-showers.svg"
+			},
+			{
+				"id": 210,
+				"descr": "light thunderstorm",
+				"icon": "11d",
+				"alticon": "wi-thunderstorm.svg",
+				"alticon_n": "wi-thunderstorm.svg",
+				"cuteicon": "cu-thunderstorm.svg",
+				"cuteicon_n": "cu-thunderstorm.svg"
+			},
+			{
+				"id": 211,
+				"descr": "thunderstorm",
+				"icon": "11d",
+				"alticon": "wi-thunderstorm.svg",
+				"alticon_n": "wi-thunderstorm.svg",
+				"cuteicon": "cu-thunderstorm.svg",
+				"cuteicon_n": "cu-thunderstorm.svg"
+			},
+			{
+				"id": 212,
+				"descr": "heavy thunderstorm",
+				"icon": "11d",
+				"alticon": "wi-thunderstorm.svg",
+				"alticon_n": "wi-thunderstorm.svg",
+				"cuteicon": "cu-thunderstorm.svg",
+				"cuteicon_n": "cu-thunderstorm.svg"
+			},
+			{
+				"id": 221,
+				"descr": "ragged thunderstorm",
+				"icon": "11d",
+				"alticon": "wi-thunderstorm.svg",
+				"alticon_n": "wi-thunderstorm.svg",
+				"cuteicon": "cu-thunderstorm.svg",
+				"cuteicon_n": "cu-thunderstorm.svg"
+			},
+			{
+				"id": 230,
+				"descr": "thunderstorm with light drizzle",
+				"icon": "11d",
+				"alticon": "wi-thunderstorm.svg",
+				"alticon_n": "wi-thunderstorm.svg",
+				"cuteicon": "cu-thunderstorm.svg",
+				"cuteicon_n": "cu-thunderstorm.svg"
+			},
+			{
+				"id": 231,
+				"descr": "thunderstorm with drizzle",
+				"icon": "11d",
+				"alticon": "wi-thunderstorm.svg",
+				"alticon_n": "wi-thunderstorm.svg",
+				"cuteicon": "cu-thunderstorm.svg",
+				"cuteicon_n": "cu-thunderstorm.svg"
+			},
+			{
+				"id": 232,
+				"descr": "thunderstorm with heavy drizzle",
+				"icon": "11d",
+				"alticon": "wi-storm-showers.svg",
+				"alticon_n": "wi-storm-showers.svg",
+				"cuteicon": "cu-storm-showers.svg",
+				"cuteicon_n": "cu-storm-showers.svg"
+			}
+		],
+		"Drizzle": [
+			{
+				"id": 300,
+				"descr": "light intensity drizzle",
+				"icon": "09d",
+				"alticon": "wi-day-sprinkle.svg",
+				"alticon_n": "wi-night-sprinkle.svg",
+				"cuteicon": "cu-day-rain-mix.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 301,
+				"descr": "drizzle",
+				"icon": "09d",
+				"alticon": "wi-day-sprinkle.svg",
+				"alticon_n": "wi-night-sprinkle.svg",
+				"cuteicon": "cu-day-rain-mix.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 302,
+				"descr": "heavy intensity drizzle",
+				"icon": "09d",
+				"alticon": "wi-sprinkle.svg",
+				"alticon_n": "wi-sprinkle.svg",
+				"cuteicon": "cu-showers.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 310,
+				"descr": "light intensity drizzle rain",
+				"icon": "09d",
+				"alticon": "wi-sprinkle.svg",
+				"alticon_n": "wi-sprinkle.svg",
+				"cuteicon": "cu-showers.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 311,
+				"descr": "drizzle rain",
+				"icon": "09d",
+				"alticon": "wi-day-sprinkle.svg",
+				"alticon_n": "wi-night-sprinkle.svg",
+				"cuteicon": "cu-day-rain-mix.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 312,
+				"descr": "heavy intensity drizzle rain",
+				"icon": "09d",
+				"alticon": "wi-sprinkle.svg",
+				"alticon_n": "wi-sprinkle.svg",
+				"cuteicon": "cu-showers.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 313,
+				"descr": "shower rain and drizzle",
+				"icon": "09d",
+				"alticon": "wi-sprinkle.svg",
+				"alticon_n": "wi-sprinkle.svg",
+				"cuteicon": "cu-showers.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 314,
+				"descr": "heavy shower rain and drizzle",
+				"icon": "09d",
+				"alticon": "wi-sprinkle.svg",
+				"alticon_n": "wi-sprinkle.svg",
+				"cuteicon": "cu-showers.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 321,
+				"descr": "shower drizzle",
+				"icon": "09d",
+				"alticon": "wi-sprinkle.svg",
+				"alticon_n": "wi-sprinkle.svg",
+				"cuteicon": "cu-showers.svg",
+				"cuteicon_n": "cu-showers.svg"
+			}
+		],
+		"Rain": [
+			{
+				"id": 500,
+				"descr": "light rain",
+				"icon": "10d",
+				"alticon": "wi-showers.svg",
+				"alticon_n": "wi-showers.svg",
+				"cuteicon": "cu-showers.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 501,
+				"descr": "moderate rain",
+				"icon": "10d",
+				"alticon": "wi-showers.svg",
+				"alticon_n": "wi-showers.svg",
+				"cuteicon": "cu-showers.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 502,
+				"descr": "heavy intensity rain",
+				"icon": "10d",
+				"alticon": "wi-rain.svg",
+				"alticon_n": "wi-rain.svg",
+				"cuteicon": "cu-rain.svg",
+				"cuteicon_n": "cu-rain.svg"
+			},
+			{
+				"id": 503,
+				"descr": "very heavy rain",
+				"icon": "10d",
+				"alticon": "wi-rain.svg",
+				"alticon_n": "wi-rain.svg",
+				"cuteicon": "cu-rain.svg",
+				"cuteicon_n": "cu-rain.svg"
+			},
+			{
+				"id": 504,
+				"descr": "extreme rain",
+				"icon": "10d",
+				"alticon": "wi-rain.svg",
+				"alticon_n": "wi-rain.svg",
+				"cuteicon": "cu-rain.svg",
+				"cuteicon_n": "cu-rain.svg"
+			},
+			{
+				"id": 511,
+				"descr": "freezing rain",
+				"icon": "13d",
+				"alticon": "wi-snowflake-cold.svg",
+				"alticon_n": "wi-snowflake-cold.svg",
+				"cuteicon": "cu-snowflake-cold.svg",
+				"cuteicon_n": "cu-snowflake-cold.svg"
+			},
+			{
+				"id": 520,
+				"descr": "light intensity shower rain",
+				"icon": "09d",
+				"alticon": "wi-showers.svg",
+				"alticon_n": "wi-showers.svg",
+				"cuteicon": "cu-showers.svg",
+				"cuteicon_n": "cu-showers.svg"
+			},
+			{
+				"id": 521,
+				"descr": "shower rain",
+				"icon": "09d",
+				"alticon": "wi-rain.svg",
+				"alticon_n": "wi-rain.svg",
+				"cuteicon": "cu-rain.svg",
+				"cuteicon_n": "cu-rain.svg"
+			},
+			{
+				"id": 522,
+				"descr": "heavy intensity shower rain",
+				"icon": "09d",
+				"alticon": "wi-rain.svg",
+				"alticon_n": "wi-rain.svg",
+				"cuteicon": "cu-rain.svg",
+				"cuteicon_n": "cu-rain.svg"
+			},
+			{
+				"id": 531,
+				"descr": "ragged shower rain",
+				"icon": "09d",
+				"alticon": "wi-rain.svg",
+				"alticon_n": "wi-rain.svg",
+				"cuteicon": "cu-rain.svg",
+				"cuteicon_n": "cu-rain.svg"
+			}
+		],
+		"Snow": [
+			{
+				"id": 600,
+				"descr": "light snow",
+				"icon": "13d",
+				"alticon": "wi-day-snow.svg",
+				"alticon_n": "wi-night-snow.svg",
+				"cuteicon": "cu-day-snow.svg",
+				"cuteicon_n": "cu-snow.svg"
+			},
+			{
+				"id": 601,
+				"descr": "snow",
+				"icon": "13d",
+				"alticon": "wi-snowflake-cold.svg",
+				"alticon_n": "wi-snowflake-cold.svg",
+				"cuteicon": "cu-snowflake-cold.svg",
+				"cuteicon_n": "cu-snowflake-cold.svg"
+			},
+			{
+				"id": 602,
+				"descr": "heavy snow",
+				"icon": "13d",
+				"alticon": "wi-snowflake-cold.svg",
+				"alticon_n": "wi-snowflake-cold.svg",
+				"cuteicon": "cu-snowflake-cold.svg",
+				"cuteicon_n": "cu-snowflake-cold.svg"
+			},
+			{
+				"id": 611,
+				"descr": "sleet",
+				"icon": "13d",
+				"alticon": "wi-day-sleet.svg",
+				"alticon_n": "wi-night-sleet.svg",
+				"cuteicon": "cu-day-snow.svg",
+				"cuteicon_n": "cu-snow.svg"
+			},
+			{
+				"id": 612,
+				"descr": "light shower sleet",
+				"icon": "13d",
+				"alticon": "wi-day-sleet.svg",
+				"alticon_n": "wi-night-sleet.svg",
+				"cuteicon": "cu-day-snow.svg",
+				"cuteicon_n": "cu-snow.svg"
+			},
+			{
+				"id": 613,
+				"descr": "shower sleet",
+				"icon": "13d",
+				"alticon": "wi-snowflake-cold.svg",
+				"alticon_n": "wi-snowflake-cold.svg",
+				"cuteicon": "cu-snowflake-cold.svg",
+				"cuteicon_n": "cu-snowflake-cold.svg"
+			},
+			{
+				"id": 615,
+				"descr": "light rain and snow",
+				"icon": "13d",
+				"alticon": "wi-day-rain-mix.svg",
+				"alticon_n": "wi-night-rain-mix.svg",
+				"cuteicon": "cu-day-snow.svg",
+				"cuteicon_n": "cu-snow.svg"
+			},
+			{
+				"id": 616,
+				"descr": "rain and snow",
+				"icon": "13d",
+				"alticon": "wi-day-rain-mix.svg",
+				"alticon_n": "wi-night-rain-mix.svg",
+				"cuteicon": "cu-day-snow.svg",
+				"cuteicon_n": "cu-snow.svg"
+			},
+			{
+				"id": 620,
+				"descr": "light shower snow",
+				"icon": "13d",
+				"alticon": "wi-day-snow.svg",
+				"alticon_n": "wi-night-snow.svg",
+				"cuteicon": "cu-day-snow.svg",
+				"cuteicon_n": "cu-snow.svg"
+			},
+			{
+				"id": 621,
+				"descr": "shower snow",
+				"icon": "13d",
+				"alticon": "wi-snowflake-cold.svg",
+				"alticon_n": "wi-snowflake-cold.svg",
+				"cuteicon": "cu-snowflake-cold.svg",
+				"cuteicon_n": "cu-snowflake-cold.svg"
+			},
+			{
+				"id": 622,
+				"descr": "heavy shower snow",
+				"icon": "13d",
+				"alticon": "wi-snowflake-cold.svg",
+				"alticon_n": "wi-snowflake-cold.svg",
+				"cuteicon": "cu-snowflake-cold.svg",
+				"cuteicon_n": "cu-snowflake-cold.svg"
+			}
+		],
+		"Mist": [
+			{
+				"id": 701,
+				"descr": "mist",
+				"icon": "50d",
+				"alticon": "wi-fog.svg",
+				"alticon_n": "wi-fog.svg",
+				"cuteicon": "cu-cloudy.svg",
+				"cuteicon_n": "cu-cloudy.svg"
+			},
+			{
+				"id": 711,
+				"descr": "smoke",
+				"icon": "50d",
+				"alticon": "wi-smog.svg",
+				"alticon_n": "wi-smog.svg",
+				"cuteicon": "cu-cloudy.svg",
+				"cuteicon_n": "cu-cloudy.svg"
+			},
+			{
+				"id": 721,
+				"descr": "haze",
+				"icon": "50d",
+				"alticon": "wi-day-haze.svg",
+				"alticon_n": "wi-night-fog.svg",
+				"cuteicon": "cu-cloudy.svg",
+				"cuteicon_n": "cu-cloudy.svg"
+			},
+			{
+				"id": 731,
+				"descr": "sand/dust whirls",
+				"icon": "50d",
+				"alticon": "wi-sandstorm.svg",
+				"alticon_n": "wi-sandstorm.svg",
+				"cuteicon": "cu-strong-wind.svg",
+				"cuteicon_n": "cu-strong-wind.svg"
+			},
+			{
+				"id": 741,
+				"descr": "fog",
+				"icon": "50d",
+				"alticon": "wi-fog.svg",
+				"alticon_n": "wi-fog.svg",
+				"cuteicon": "cu-cloudy.svg",
+				"cuteicon_n": "cu-cloudy.svg"
+			},
+			{
+				"id": 751,
+				"descr": "sand",
+				"icon": "50d",
+				"alticon": "wi-dust.svg",
+				"alticon_n": "wi-dust.svg",
+				"cuteicon": "cu-cloudy.svg",
+				"cuteicon_n": "cu-cloudy.svg"
+			},
+			{
+				"id": 761,
+				"descr": "dust",
+				"icon": "50d",
+				"alticon": "wi-dust.svg",
+				"alticon_n": "wi-dust.svg",
+				"cuteicon": "cu-cloudy.svg",
+				"cuteicon_n": "cu-cloudy.svg"
+			},
+			{
+				"id": 762,
+				"descr": "volcanic ash",
+				"icon": "50d",
+				"alticon": "wi-volcano.svg",
+				"alticon_n": "wi-volcano.svg",
+				"cuteicon": "cu-volcano.svg",
+				"cuteicon_n": "cu-volcano.svg"
+			},
+			{
+				"id": 771,
+				"descr": "squalls",
+				"icon": "50d",
+				"alticon": "wi-tsunami.svg",
+				"alticon_n": "wi-tsunami.svg",
+				"cuteicon": "cu-strong-wind.svg",
+				"cuteicon_n": "cu-strong-wind.svg"
+			},
+			{
+				"id": 781,
+				"descr": "tornado",
+				"icon": "50d",
+				"alticon": "wi-tornado.svg",
+				"alticon_n": "wi-tornado.svg",
+				"cuteicon": "cu-tornado.svg",
+				"cuteicon_n": "cu-tornado.svg"
+			}
+		],
+		"Clear": [
+			{
+				"id": 800,
+				"descr": "clear sky",
+				"icon": "01d",
+				"alticon": "wi-day-sunny.svg",
+				"alticon_n": "wi-night-clear.svg",
+				"cuteicon": "cu-day-sunny.svg",
+				"cuteicon_n": "cu-night-clear.svg"
+			}
+		],
+		"Clouds": [
+			{
+				"id": 801,
+				"descr": "few clouds: 11-25%",
+				"icon": "02d",
+				"alticon": "wi-day-sunny-overcast.svg",
+				"alticon_n": "wi-night-cloudy-high.svg",
+				"cuteicon": "cu-day-haze.svg",
+				"cuteicon_n": "cu-night-cloudy.svg"
+			},
+			{
+				"id": 802,
+				"descr": "scattered clouds: 25-50%",
+				"icon": "03d",
+				"alticon": "wi-day-cloudy-high.svg",
+				"alticon_n": "wi-night-cloudy-high.svg",
+				"cuteicon": "cu-day-cloudy.svg",
+				"cuteicon_n": "cu-night-cloudy.svg"
+			},
+			{
+				"id": 803,
+				"descr": "broken clouds: 51-84%",
+				"icon": "04d",
+				"alticon": "wi-cloudy.svg",
+				"alticon_n": "wi-cloudy.svg",
+				"cuteicon": "cu-cloudy.svg",
+				"cuteicon_n": "cu-cloudy.svg"
+			},
+			{
+				"id": 804,
+				"descr": "overcast clouds: 85-100%",
+				"icon": "04d",
+				"alticon": "wi-cloud.svg",
+				"alticon_n": "wi-cloud.svg",
+				"cuteicon": "cu-cloudy.svg",
+				"cuteicon_n": "cu-cloudy.svg"
+			}
+		]
+	}
+}

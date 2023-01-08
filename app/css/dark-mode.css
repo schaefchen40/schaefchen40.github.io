@@ -1,0 +1,131 @@
+/**
+  common color styling throughout all webpages for dark mode
+  - whole page background and text
+  - navbar and text of navigation items
+  - side navigation 
+  - icons
+  - buttons & checkbox
+  - hover
+  - positive/negativ values
+  - highcharts
+*/
+
+/**
+  * background color of the whole page &
+  * textcolor of the text
+  */
+:root, body{
+    background-color: #252525;
+    color: #fff;
+}
+
+/**
+  * background color of the navbar &
+  * textcolor of the brandname
+  * and the dropdown-menu (e.g. city, icon)
+  */
+.navbar-custom{
+  background-color: #240040;
+}
+.navbar-brand, 
+.dropdown-toggle{ 
+    color: #fff;
+} 
+
+/**
+style side navigation
+**/
+.sidenav {
+  background-color: rgb(134, 134, 134);
+}
+#customSidenav a:hover {
+  color: #9e3ee7;
+}
+#customSidenav a{
+  color: #222222;
+}
+
+/**
+color icon
+style icon
+*/
+#darkmodeicon:hover {
+  -webkit-filter: brightness(75%); 
+} 
+.weathericon, .brandIcon{ /* Icons: re-color weather icons */
+    filter : invert(85%);
+}
+/* #darkmodeicon{
+  width: 50px;
+  height: auto;
+} */
+
+/**
+color buttons & checkbox
+*/
+.btn-primary:hover {
+    background-color: #3d175a !important;
+    border-color: #3d175a;
+}
+.btn-secondary {
+  border-color: #240040;
+  background-color: #240040;
+}
+#dropdownMenuLink:hover {
+  border-color: #3d175a;
+  background-color: #3d175a;
+  color: #fff;
+}
+
+/** 
+coloring on hover/on selection
+*/
+.navbar-nav .nav-link:hover:not(.active), 
+.menuicon:hover:not(.active), 
+.navbar-brand:hover, 
+.dropdown-toggle:hover{
+  color: #9e3ee7;
+}
+
+/**
+change color of positive and negativ values
+*/
+.posNumberTemp{
+  color: #ff8c00;
+}
+.negNumberTemp{
+  color: #03c2fc;
+}
+.posNumber{
+  color: rgb(117, 184, 117);
+}
+.negNumber{
+  color: rgb(255, 70, 70);
+}
+
+/**
+* Highcharts css
+*/
+.highcharts-axis-labels, .highcharts-axis-title {
+  fill: #E0E0E3;
+}
+
+.highcharts-title {
+  fill: #E0E0E3;
+}
+
+.highcharts-subtitle {
+  fill: #E0E0E3;
+}
+
+.highcharts-area {
+  fill-opacity: 0.25;
+} 
+
+.highcharts-legend-item > text > tspan{
+	fill: #868686;
+}
+
+.highcharts-legend-item:hover > text > tspan{
+	fill: #dadada;
+}
